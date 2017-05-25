@@ -55,19 +55,19 @@
 #define STATUS_SEPARATOR "|"
 #define BRANCH_NAME_COLOR COLOR_BLACK_BOLD
 #define STAGED_COLOR COLOR_YELLOW_BOLD
-#define STAGED_SYMBOL "-"
+#define STAGED_SYMBOL "−"
 #define CONFLICTS_COLOR COLOR_RED_BOLD
 #define CONFLICTS_SYMBOL "!"
 #define CHANGED_COLOR COLOR_BLUE_BOLD
 #define CHANGED_SYMBOL "+"
 #define BEHIND_COLOR COLOR_RED_BOLD
-#define BEHIND_SYMBOL "<"
+#define BEHIND_SYMBOL "⫯"
 #define AHEAD_COLOR COLOR_CYAN_BOLD
-#define AHEAD_SYMBOL ">"
+#define AHEAD_SYMBOL "⫰"
 #define UNTRACKED_COLOR COLOR_MAGENTA_BOLD
-#define UNTRACKED_SYMBOL "_"
+#define UNTRACKED_SYMBOL "?"
 #define CLEAN_COLOR COLOR_GREEN_BOLD
-#define CLEAN_SYMBOL "="
+#define CLEAN_SYMBOL "✔"
 // --- end config section -----------------------------
 
 struct status_counts {
